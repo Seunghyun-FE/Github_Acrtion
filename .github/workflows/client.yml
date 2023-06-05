@@ -1,9 +1,8 @@
-# .github/workflows/client.yml
 name: client
 on:
   push:
     branches:
-      - reference
+      -r eference
 jobs:
   build:
     runs-on: ubuntu-20.04
